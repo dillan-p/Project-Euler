@@ -4,8 +4,8 @@ def sum_square():
     """
     returns: sum of squares of natural numbers 1-100
     """
-     sumsq = [s**2 for s in range(1,101)]
-     return sum(sumsq)
+    sumsq = [s**2 for s in range(1,101)]
+    return sum(sumsq)
 
 def square_sum():
     """
